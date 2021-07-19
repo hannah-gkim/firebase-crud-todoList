@@ -1,14 +1,23 @@
 import React from "react";
 import "./App.css";
-import Form from "./components/Forms";
+import Forms from "./components/Forms";
 import TodoList from "./components/TodoList";
+import Title from "./components/Title";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Todo</h1>
-      <Form />
-      <TodoList />
+    <div className="container">
+      <div className="app-wrapper">
+        <div>
+          <Title />
+        </div>
+        <div>
+          <Forms />
+        </div>
+        <div>
+          <TodoList />
+        </div>
+      </div>
     </div>
   );
 }
