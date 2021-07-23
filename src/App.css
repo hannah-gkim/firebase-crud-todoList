@@ -37,7 +37,7 @@
   padding: 15px;
   margin-right: 25px;
   font-size: 20px;
-  color: #ccc;
+  color: rgb(105, 99, 99);
   background-color: #fffffc;
   border: 1px solid #f8edeb;
   border-radius: 10px;
@@ -110,12 +110,3 @@ input:focus,
 button:focus {
   outline: none;
 }
-/* .title {
-  width: 300px;
-  height: auto;
-  text-align: center;
-} */
-
-/* .complete {
-  text-decoration: line-through;
-} */
